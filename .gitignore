@@ -1,0 +1,12 @@
+  # Generated VEX output from local test runs
+  vex-output/
+  
+  # Logs
+  *.log
+  
+  # Editor / OS noise
+  .idea/
+  .vscode/
+  *.code-workspace
+  *.swp
+  .DS_Store
