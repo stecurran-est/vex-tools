@@ -347,7 +347,7 @@ cve_count="${#CVE_MAP[@]}"
 
 if [ "$cve_count" -eq 0 ]; then
   echo "No CVE references found in commits, pull requests or releases" >&2
-  exit 1
+  exit 0
 fi
 
 echo "Found $cve_count CVEs"
